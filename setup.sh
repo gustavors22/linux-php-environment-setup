@@ -10,13 +10,13 @@ function install_php {
 	sudo add-apt-repository ppa:ondrej/php
 	sudo apt update
 
-	#install PHP 7.4
-	sudo apt install php7.4
+	#install PHP 8.0
+	sudo apt install php8.0
 
-	#install php 7.4 extensions
-	sudo apt install php7.4-common php7.4-mysql php7.4-xml \
-	 php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli \
-	 php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y
+	#install php 8.0 extensions
+	sudo apt install php8.0-common php8.0-mysql php8.0-xml \
+	 php8.0-xmlrpc php8.0-curl php8.0-gd php8.0-imagick php8.0-cli \
+	 php8.0-dev php8.0-imap php8.0-mbstring php8.0-opcache php8.0-soap php8.0-zip php8.0-intl -y
 }
 
 function install_composer {
